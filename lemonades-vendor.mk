@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/lemonades
 
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/lemonades/proprietary/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.charger@1.0-service \
     vendor/oneplus/lemonades/proprietary/odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service \
     vendor/oneplus/lemonades/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/lemonades/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -24,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/oneplus/lemonades/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/oneplus/lemonades/proprietary/odm/etc/camera/distortion_result.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortion_result.bin \
-    vendor/oneplus/lemonades/proprietary/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger@1.0-service.rc \
     vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
     vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm10.txt \
     vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm11.txt \
@@ -76,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_tcs3408_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_tcs3408_rear.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
-    vendor/oneplus/lemonades/proprietary/odm/firmware/fastchg/20828/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20828/oplus_vooc_fw_rk826.bin \
     vendor/oneplus/lemonades/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti.sensormodule.holitech_gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.holitech_gc02m1b.bin \
     vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_imx481.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_imx481.bin \
@@ -95,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti_lemonades.sensor.imx586.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_lemonades.sensor.imx586.so \
     vendor/oneplus/lemonades/proprietary/odm/lib64/camera/components/com.oneplus.node.cfrsnapshot.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oneplus.node.cfrsnapshot.so \
     vendor/oneplus/lemonades/proprietary/odm/lib64/camera/components/com.oneplus.node.cfrvideo.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oneplus.node.cfrvideo.so \
-    vendor/oneplus/lemonades/proprietary/odm/lib64/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.charger@1.0.so \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9638.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b00 \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9638.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b01 \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9638.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b02 \
@@ -120,6 +116,3 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/oneplus/lemonades/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/oneplus/lemonades/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so
-
-PRODUCT_PACKAGES += \
-    manifest_oplus_charger
