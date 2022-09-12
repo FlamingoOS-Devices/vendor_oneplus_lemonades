@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/lemonades
 
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/lemonades/proprietary/odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service \
     vendor/oneplus/lemonades/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/lemonades/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/oneplus/lemonades/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
@@ -60,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/inParm8_a.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_a.txt \
     vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/inParm8_b.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_b.txt \
     vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/inParm8_c.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_c.txt \
+    vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
     vendor/oneplus/lemonades/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_ak991x_0.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_alsps.json \
